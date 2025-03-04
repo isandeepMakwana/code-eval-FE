@@ -23,7 +23,6 @@ export function CodeInput({
   ...props
 }: CodeInputProps) {
   const [isOpen, setIsOpen] = useState(true);
-
   return (
     <div className="space-y-2 sm:space-y-3 h-full flex flex-col">
       <div className="flex justify-between items-center">
